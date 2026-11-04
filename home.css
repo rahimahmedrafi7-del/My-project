@@ -1,0 +1,303 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcf4e4;
+}
+
+.Navigation{
+    height: 60px;
+    padding: 10px;
+    display:flex ;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0, 0.3);
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 40px;
+    color: rgb(92, 141, 89);
+    padding: 5px;
+}
+
+.navpage{
+    gap: 100px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.navpage a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navpage a:hover{
+    color: rgb(92, 141, 89);
+    transition-duration: 0.5s;
+}
+
+.search{
+    margin-right: 20px;
+    padding: 8px;
+    
+}
+
+.search i{
+    color:rgb(92, 141, 89);
+}
+
+.search input{
+    border: 1px solid rgb(92, 141, 89) ;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#search1 i{
+   color: rgb(92, 141, 89);
+}
+
+#search1{
+    padding: 12px;
+}
+
+.topbnr{
+
+    height: 400px;
+    width: 1232px;
+    margin: 15px 12px;
+    border-radius: 20px;
+    background-image: url(topbanner.png);
+    background-size: cover;
+}
+
+.topbnr h4{
+    margin-left: 100px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(69, 103, 67) ;
+
+}
+
+.topbnr h1{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 55px;
+    color:rgb(69, 103, 67) ;
+}
+
+.topbnr h5{
+    margin-left: 100px;
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 17px;
+    color:rgb(69, 103, 67) ;
+}
+
+.topbnr button{
+    border: 1px;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color:rgb(69, 103, 67) ;
+    font-size: 15px;
+
+}
+
+.whyshopnest{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    height: 80px;
+    width: 1232px;
+    margin:7px 12px;
+    padding: 10px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.3);
+}
+
+.delivery{
+    display: flex;
+    color:rgb(61, 92, 60);
+    font-size: 17px;
+    gap: 20px;
+}
+
+.delivery i{
+    background-color: rgb(183, 203, 178);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    font-size: 20px;
+}
+
+.return{
+    display: flex;
+    color:rgb(61, 92, 60);
+    font-size: 17px;
+    gap: 20px;
+}
+
+.return i{
+    background-color: rgb(183, 203, 178);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.support{
+    display: flex;
+    color:rgb(61, 92, 60);
+    font-size: 17px;
+    gap: 20px;
+}
+
+.support i{
+    background-color: rgb(183, 203, 178);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#category{
+    margin: 60px;
+    font-size: 33px;
+    text-shadow: 0 2px 2px rgb(0, 0, 0, 0.1);
+    color:rgb(61, 92, 60) ;
+}
+
+.homecategory{
+    justify-content: space-around;
+    display: flex;
+}
+
+#shoes{
+    height: 270px;
+    width: 210px;
+    background-color: rgb(231, 227, 220);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    padding: 5px 5px;
+
+}
+
+#shoes:hover{
+    transform: scale(1.2);
+    transition-duration:0.5s;
+}
+
+
+
+#shoeimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#shoetx{
+    text-align: center;
+    margin: 10px;
+    color:rgb(61, 92, 60) ;
+}
+
+.sunglasses{
+    height: 270px;
+    width: 210px;
+    background-color: rgb(231, 227, 220);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    padding: 5px 5px;
+}
+
+.sunglasses:hover{
+    transform: scale(1.2);
+    transition-duration:0.5s;
+}
+
+#sunglassimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+#sunglasstx{
+    text-align: center;
+    margin: 10px;
+    color:rgb(61, 92, 60) ;
+}
+
+.bags{
+    height: 270px;
+    width: 210px;
+    background-color: rgb(231, 227, 220);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    padding: 5px 5px;
+
+}
+
+.bags:hover{
+    transform: scale(1.2);
+    transition-duration:0.5s;
+}
+
+#bagimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#bagtx{
+    text-align: center;
+    margin: 10px;
+    color:rgb(61, 92, 60) ;
+     
+}
+
+.watches{
+    height: 270px;
+    width: 210px;
+    background-color: rgb(231, 227, 220);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    padding: 5px 5px;
+
+}
+
+.watches:hover{
+    transform: scale(1.2);
+    transition-duration:0.5s;
+}
+
+#watchimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#watchtx{
+    text-align: center;
+    margin: 10px;
+    color:rgb(61, 92, 60) ;
+}
