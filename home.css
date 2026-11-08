@@ -195,6 +195,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
     padding: 5px 5px;
+    cursor: pointer;
 
 }
 
@@ -225,6 +226,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
     padding: 5px 5px;
+    cursor: pointer;
 }
 
 .sunglasses:hover{
@@ -253,6 +255,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
     padding: 5px 5px;
+    cursor: pointer;
 
 }
 
@@ -282,6 +285,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
     padding: 5px 5px;
+    cursor: pointer;
 
 }
 
@@ -300,4 +304,372 @@ body{
     text-align: center;
     margin: 10px;
     color:rgb(61, 92, 60) ;
+}
+
+#featured{
+    margin: 60px;
+    font-size: 33px;
+    text-shadow: 0 2px 2px rgb(0, 0, 0, 0.1);
+    color:rgb(61, 92, 60) ;
+}
+
+.hoodie{
+    height: 350px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px  rgba(57, 100, 27, 0.7);
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.hoodie:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+
+#Himg{
+    height: 230px;
+    width: 250px;
+    background-image: url(hoodie.png);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+
+#Hoodietext{
+position: relative;
+top: 15px;
+left: 15px;
+gap: 100px;
+}
+
+#Hoodietext h4{
+    color: rgb(61, 92, 60);
+    font-size: 20px;
+}
+
+#Htx2{
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+
+#Htx2 i{
+    color: rgb(219, 219, 27);
+}
+
+#Htx2 p{
+    position: relative;
+    left: 10px;
+    top:px;
+}
+
+#Htx3 i{
+    font-size: 20px;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+#Htx3{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color:rgb(61, 92, 60);
+    position: relative;
+    left: 85px;
+    bottom: 30px;
+}
+
+#Hoodietext p{
+    font-size: 20px;
+    color:rgb(61, 92, 60) ;
+    position: relative;
+    bottom: 10px;
+}
+
+.Caps{
+    height: 350px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px  rgba(57, 100, 27, 0.7);
+    cursor: pointer;
+}
+
+.Caps:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+
+
+#Cimg{
+    height: 220px;
+    width: 250px;
+    background-image: url(Cap.png);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#Captext{
+position: relative;
+top: 15px;
+left: 15px;
+gap: 100px;
+}
+
+#Captext h4{
+    color: rgb(61, 92, 60);
+    font-size: 20px;
+}
+
+#Ctx2{
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+
+#Ctx2 i{
+    color: rgb(219, 219, 27);
+}
+
+#Ctx2 p{
+    position: relative;
+    left: 10px;
+    top:px;
+}
+
+#Ctx3 i{
+    font-size: 20px;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+#Ctx3{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color:rgb(61, 92, 60);
+    position: relative;
+    left: 65px;
+    bottom: 30px;
+}
+
+#Captext p{
+    font-size: 20px;
+    color:rgb(61, 92, 60) ;
+    position: relative;
+    bottom: 10px;
+}
+
+.Fproduct{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* Belt */
+
+.Belt{
+    height: 350px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px  rgba(57, 100, 27, 0.7);
+    cursor: pointer;
+}
+
+.Belt:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+
+#Bimg{
+    height: 220px;
+    width: 250px;
+    background-image: url(Belt.png);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#Belttext{
+position: relative;
+top: 15px;
+left: 15px;
+gap: 100px;
+}
+
+#Belttext h4{
+    color: rgb(61, 92, 60);
+    font-size: 20px;
+}
+
+#Btx2{
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+
+#Btx2 i{
+    color: rgb(219, 219, 27);
+}
+
+#Btx2 p{
+    position: relative;
+    left: 10px;
+    top:px;
+}
+
+#Btx3 i{
+    font-size: 20px;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+#Btx3{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color:rgb(61, 92, 60);
+    position: relative;
+    left: 65px;
+    bottom: 30px;
+}
+
+#Belttext p{
+    font-size: 20px;
+    color:rgb(61, 92, 60) ;
+    position: relative;
+    bottom: 10px;
+}
+
+/* T shirt */
+
+.Tshirt{
+    height: 350px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px  rgba(57, 100, 27, 0.7);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.Tshirt:hover{
+    transition-duration: 0.5s;
+    transform: scale(0.9);
+}
+
+#Timg{
+    height: 220px;
+    width: 250px;
+    background-image: url(T\ shirt.png);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#Tshirttext{
+position: relative;
+top: 15px;
+left: 15px;
+gap: 100px;
+}
+
+#Tshirttext h4{
+    color: rgb(61, 92, 60);
+    font-size: 20px;
+}
+
+#Ttx2{
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+
+#Ttx2 i{
+    color: rgb(219, 219, 27);
+}
+
+#Ttx2 p{
+    position: relative;
+    left: 10px;
+    top:px;
+}
+
+#Ttx3 i{
+    font-size: 20px;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+#Ttx3{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color:rgb(61, 92, 60);
+    position: relative;
+    left: 65px;
+    bottom: 30px;
+}
+
+#Tshirttext p{
+    font-size: 20px;
+    color:rgb(61, 92, 60) ;
+    position: relative;
+    bottom: 10px;
+}
+
+.offer{
+    height: 220px;
+    width: 1200px;
+    margin: 30px;
+    margin-top: 50px;
+    background-image: url(offer\ benner.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+    
+}
+
+.offer:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.03);
+}
+
+#offertx{
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    color: rgb(87, 121, 86);
+}
+
+.offer button{
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: rgb(86, 117, 86);
+    color: white;
 }
