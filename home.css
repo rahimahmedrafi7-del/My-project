@@ -41,7 +41,7 @@ body{
 
 .navpage a:hover{
     color: rgb(92, 141, 89);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 
 .search{
@@ -636,40 +636,112 @@ gap: 100px;
 }
 
 .offer{
-    height: 220px;
-    width: 1200px;
-    margin: 30px;
-    margin-top: 50px;
+    height: 180px;
+    width: 1155px;
+    border-radius: 10px;
+    margin: 50px;
     background-image: url(offer\ benner.png);
     background-size: cover;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
-    
-}
-
-.offer:hover{
-    transition-duration: 0.5s;
-    transform: scale(1.03);
+    box-shadow: 0 4px 15px 10px rgb(0, 0, 0, 0.2);
 }
 
 #offertx{
-    font-size: 30px;
-    position: relative;
-    left: 300px;
-    top: 30px;
-    color: rgb(87, 121, 86);
+    color: rgb(98, 133, 96);
+    padding-left: 290px;
+    padding-top: 30px;
+    font-size: 25px;
 }
 
-.offer button{
-    position: relative;
-    left: 800px;
-    bottom: 40px;
+.offerbtn{
+    margin-left: 730px;
+    margin-top: -70px;
+}
+
+.offerbtn button{
     height: 40px;
-    width: 130px;
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid rgb(0, 0, 0, 0.2);
-    border-radius: 30px;
-    background-color: rgb(86, 117, 86);
-    color: white;
+    width: 120px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: rgb(105, 140, 103);
+}
+
+.footer{
+    height: 300px;
+    width: 1230px;
+    margin: 10px;
+    margin-left: 13px;
+    background-color: rgb(224, 217, 194);
+    border-radius: 20px;
+    box-shadow: 0 5px 12px 10px rgb(0, 0, 0, 0.2);
+}
+
+#Flogo{
+    margin-left: 40px;
+    color: rgb(92, 141, 89);
+    padding: 5px;
+    padding-top: 80px;
+}
+
+#Flogo h4{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+.ficons{
+    margin-left: 52px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.ficons i{
+    color:rgb(74, 114, 72);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footerbottom1{
+    position: relative;
+    left: 150px;
+    padding-top: 60px;
+    color: rgb(105, 140, 103);
+}
+
+.footerbottom1 a{
+    text-decoration: none;
+    color: rgb(105, 140, 103);
+}
+
+.footerbottom2{
+    position: relative;
+    left: 250px;
+    font-size: 17px;
+    padding-top: 60px;
+    color: rgb(105, 140, 103);
+}
+
+.newsletter{
+    position: relative;
+    left: 350px;
+    padding-top: 100px;
+    color: rgb(79, 111, 77);
+}
+
+.newsletter input{
+    height: 30px;
+    width: 200px;
+    border: 1px;
+    padding: 5px;
+}
+
+.newsletter button{
+    height: 30px;
+    width: 40px;
+    border: 1px;
+    background-color: rgb(74, 95, 74);
 }
