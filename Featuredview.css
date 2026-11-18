@@ -1,0 +1,254 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(47, 66, 46);
+}
+
+/* Navigation */
+
+.Navigation{
+    height: 60px;
+    padding: 10px;
+    display:flex ;
+    justify-content: space-around;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0, 0.3);
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 40px;
+    color: rgb(92, 141, 89);
+    padding: 5px;
+}
+
+.navpage{
+    gap: 100px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.navpage a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navpage a:hover{
+    color: rgb(92, 141, 89);
+    transition-duration: 0.3s;
+}
+
+.search{
+    margin-right: 20px;
+    padding: 8px;
+    
+}
+
+.search i{
+    color:rgb(92, 141, 89);
+}
+
+.search input{
+    border: 1px solid rgb(92, 141, 89) ;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#search1 i{
+   color: rgb(92, 141, 89);
+}
+
+#search1{
+    padding: 12px;
+}
+
+/* FP heading */
+
+.FPheading{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 10px ;
+    word-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FPheading h4{
+   background-color: rgb(197, 244, 192);
+   height: 25px;
+   width: 160px;
+   border-radius: 20px;
+   margin-bottom: 10px;
+   margin-left: 550px;
+   padding: 2px;
+}
+
+.FPheading h1{
+    margin-bottom: 9px;
+    color: white;
+}
+
+.FPheading h3{
+    color: white;
+}
+
+/* FP category */
+
+.FPcategory{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 15px 10% 40px;
+}
+
+
+.FPcontainer{
+    height:430px ;
+    width: 300px;
+    background-color: rgb(243, 237, 222);
+    box-shadow:0 8px 25px 8px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+
+.FPcontainer:hover{
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+
+.FPcontainer img{
+    height: 280px;
+    width: 240px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+    border-radius: 10px;
+}
+
+.FPcontainer h4{
+    font-size: 22px;
+    position: relative;
+    left: 17px;
+    margin-bottom: 5px;
+}
+
+.FPcontainer p{
+    font-size: 20px;
+    position: relative;
+    left: 17px;
+}
+
+.FPcontainer button{
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    top: 18px;
+    left: 55px;
+    background-color: rgb(47, 66, 46);
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.FPcontainer button:hover{
+    background-color: rgb(91, 122, 90);
+    
+}
+
+/* Footer */
+
+
+.footer{
+    height: 300px;
+    width: 1230px;
+    margin: 10px;
+    margin-left: 13px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 5px 12px 10px rgb(0, 0, 0, 0.2);
+}
+
+#Flogo{
+    margin-left: 40px;
+    color: rgb(92, 141, 89);
+    padding: 5px;
+    padding-top: 80px;
+}
+
+#Flogo h4{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+.ficons{
+    margin-left: 52px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.ficons i{
+    color:rgb(74, 114, 72);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footerbottom1{
+    position: relative;
+    left: 150px;
+    padding-top: 60px;
+    color: rgb(105, 140, 103);
+}
+
+.footerbottom1 a{
+    text-decoration: none;
+    color: rgb(105, 140, 103);
+}
+
+.footerbottom2{
+    position: relative;
+    left: 250px;
+    font-size: 17px;
+    padding-top: 60px;
+    color: rgb(105, 140, 103);
+}
+
+.newsletter{
+    position: relative;
+    left: 350px;
+    padding-top: 80px;
+    color: rgb(79, 111, 77);
+}
+
+.newsletter input{
+    height: 30px;
+    width: 200px;
+    border: 1px;
+    padding: 5px;
+}
+
+.newsletter button{
+    height: 30px;
+    width: 40px;
+    border: 1px;
+    background-color: rgb(74, 95, 74);
+}
